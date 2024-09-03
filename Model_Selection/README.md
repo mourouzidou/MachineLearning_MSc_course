@@ -47,10 +47,10 @@ To determine the correlation between continuous features and the target variable
 * Moderate correlation: |correlation coefficient| between 0.3 and 0.5.
 * Strong correlation: |correlation coefficient| greater than 0.5.
 
-As shown in Figure 3, most continuous features exhibited weak correlations with the target variable YY. Notably:
+As shown in Figure 3, most continuous features exhibited weak correlations with the target variable Y. Notably:
 
-* Feature 4 showed a moderate positive correlation with YY (correlation coefficient = 0.29908).
-* Feature 7 had a moderate negative correlation with YY (correlation coefficient = -0.21082).
+* Feature 4 showed a moderate positive correlation with Y (correlation coefficient = 0.29908).
+* Feature 7 had a moderate negative correlation with Y (correlation coefficient = -0.21082).
 * 
 The remaining features had extremely weak correlations, indicating minimal linear relationships with the target variable.
 
@@ -60,13 +60,13 @@ The remaining features had extremely weak correlations, indicating minimal linea
 
 To assess the dependence of categorical features on the target variable Y, we performed the Chi-squared test, setting a significance threshold of p<0.05. Features with p-values below this threshold were considered dependent on Y.
 
-Figure 4a depicts the distribution of dependent features. The count plots, enhanced with Kernel Density Estimation (KDE) lines, show clear differences in the feature distributions between the two classes of YY. These variations suggest that these features are closely related to the target variable.
+Figure 4a depicts the distribution of dependent features. The count plots, enhanced with Kernel Density Estimation (KDE) lines, show clear differences in the feature distributions between the two classes of Y. These variations suggest that these features are closely related to the target variable.
 
 Figure 4b illustrates the distribution of independent features. Here, the KDE lines are nearly identical between the two classes, indicating that these features do not significantly differ between the classes and, thus, are less likely to be related to Y.
 
 #### Conclusion:
 
-Continuous Features: Most showed weak correlations with YY, with a few exceptions demonstrating moderate relationships.
+Continuous Features: Most showed weak correlations with Y, with a few exceptions demonstrating moderate relationships.
 Categorical Features: Dependent features displayed distinct distribution patterns across different Y classes, highlighting their potential significance in predicting Y. In contrast, independent features showed no such distinction, implying a lack of connection to Y.
 
 These insights are crucial for feature selection, helping to identify which variables are most likely to contribute to predictive modeling.
@@ -76,7 +76,7 @@ These insights are crucial for feature selection, helping to identify which vari
 
 
 ### Data Exploration - Interesting Feature Selection
-In this section, we carefully selected a subset of features from the dataset based on their statistical properties and their relationship with the target variable YY. The goal was to choose features that would enhance the model's ability to recognize patterns and make accurate predictions.
+In this section, we carefully selected a subset of features from the dataset based on their statistical properties and their relationship with the target variable Y. The goal was to choose features that would enhance the model's ability to recognize patterns and make accurate predictions.
 
 #### Categorical Features
 
@@ -94,7 +94,7 @@ For continuous features, we selected those with meaningful distribution characte
     Feature 21: Displays a uniform distribution, which is less sensitive to outliers and extreme values. This feature adds robustness to the model, providing a different perspective on the data and complementing the normal distribution of Feature 43.
 
 Conclusion: 
-By selecting these features—three categorical and two continuous—we aim to create a balanced mix that captures the diversity in the data. The categorical features are expected to enhance the model's ability to identify distinct patterns associated with the target variable YY, while the continuous features contribute smooth and robust information. This strategic selection is intended to improve the overall accuracy and effectiveness of the model in recognizing patterns and making predictions.
+By selecting these features—three categorical and two continuous—we aim to create a balanced mix that captures the diversity in the data. The categorical features are expected to enhance the model's ability to identify distinct patterns associated with the target variable Y, while the continuous features contribute smooth and robust information. This strategic selection is intended to improve the overall accuracy and effectiveness of the model in recognizing patterns and making predictions.
 
 ![image](https://github.com/user-attachments/assets/13bd1114-c690-4553-980f-0fa0b765a6ff)
 ![image](https://github.com/user-attachments/assets/cc7f8405-b719-41c2-ab74-7a811797a33b)
