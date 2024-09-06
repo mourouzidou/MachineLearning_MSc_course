@@ -1,7 +1,7 @@
 
 # Model Selection Project
 
-This project is focuse on model selection and evaluation, applying various machine learning algorithms to a dataset with both continuous and categorical features. The goal was to determine the best model configuration by evaluating different hyperparameter settings and then assess the model's performance on unseen data.
+This project focuses on model selection and evaluation, applying various machine learning algorithms to a dataset with both continuous and categorical features. The goal was to determine the best model configuration by evaluating different hyperparameter settings and then assess the model's performance on unseen data.
 
 ## Project Overview
 
